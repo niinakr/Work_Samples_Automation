@@ -34,7 +34,7 @@ Workhour-project-RPA
 
 ```
 
-## Workflow of tasks
+### Workflow of tasks
 
 ![workflow](https://github.com/niinakr/Work_Samples_Automation/blob/main/Workhour-project-RPA-RF/images/Flow%20Chart%20-%20Check%20weekly%20hours.jpg)
 
