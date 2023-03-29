@@ -27,9 +27,9 @@ Open The Driver Category
 
 Save The Schedule
     Click                                   css=button[type="submit"]
-    #&{response}                             Wait For Response
-    #...                                     matcher=${APP_URL.${ENVIRONMENT}}api/vehicleschedules
-    #Should Be Equal As Integers             ${response.status}    201
+    &{response}                             Wait For Response
+    ...                                     matcher=${APP_URL.${ENVIRONMENT}}api/vehicleschedules
+    Should Be Equal As Integers             ${response.status}    201
 
 Add Shift Hours For Driver Schedule
     [Arguments]                             ${hours}
