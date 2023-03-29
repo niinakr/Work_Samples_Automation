@@ -7,9 +7,6 @@ Suite Setup         Run Keywords   Open My Browser
 ...                 AND            Log In To App
 ...                 username=${VALID USERNAME CUSTOMER ADMIN}
 ...                 password=${VALID PASSWORD}
-#Suite Teardown      Run Keywords    Go To    ${APP_URL.${ENVIRONMENT}}    AND
-#...                 Log Out    AND    
-#...                 Delete All Cookies
 Force Tags          Smoke   Usermanagement
 
 
@@ -20,10 +17,6 @@ Customer Admin Is Able To Add New Customers Via The User Management
     When Customer Admin Adds New User
     Then Registration Link Is Sent To The New Customer
     And New Customer Is Able To Register To The Service
-#    [Teardown]    Run Keywords    
-#    ...           Go To    ${APP_URL.${ENVIRONMENT}}    AND
-#    ...           Log Out    AND
-#    ...           Delete All Cookies
 
 New Customer Is Able To Access The Service With Valid Credentials
     [Tags]    Customer    Usermanagement
