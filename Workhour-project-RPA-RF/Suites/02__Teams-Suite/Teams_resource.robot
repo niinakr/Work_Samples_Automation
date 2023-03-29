@@ -37,7 +37,6 @@ Add Specific Email Info and Send
     Input Text  ${MESSAGE_PATH}     Hei, Sinulla on viime viikolta kirjauksia alle 36h. Käythän tarkistamassa kirjaukset. Kiitos.${\n} ${\n}${TextFileContentNames}${\n} ${\n}T:Mauri Robotti
     Click Element   ${SEND_BUTTON_PATH}
 
-
 Send Congratulation of Filled Working Hours
     [Documentation]     Sending congratulations message to teams group.
         ...
