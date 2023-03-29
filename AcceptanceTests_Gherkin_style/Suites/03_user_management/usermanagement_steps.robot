@@ -12,7 +12,7 @@ Resource            ../global_resources/global_resources.robot
 
 *** Variables ***
 ${PHONE NUMBER}     +358441111111
-${PASSWORD}         ChangeMe!
+${PASSWORD}         *****
 
 
 *** Keywords ***
