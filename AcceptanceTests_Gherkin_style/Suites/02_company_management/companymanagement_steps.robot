@@ -27,6 +27,6 @@ Admin Deletes An Existing Organization
 
 Organization Is Successfully Deleted
     Check Given Notification Message        Yrityksen poisto onnistui
-    #&{response}                         Wait For Response
-    #...                                 matcher=${APP_URL.${ENVIRONMENT}}api/organizations/
-    #Should Be Equal As Strings          ${response.status}        200
+    &{response}                         Wait For Response
+    ...                                 matcher=${APP_URL.${ENVIRONMENT}}api/organizations/
+    Should Be Equal As Strings          ${response.status}        200
