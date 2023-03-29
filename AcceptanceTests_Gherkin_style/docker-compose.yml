@@ -1,0 +1,14 @@
+version: "3.2"
+services:
+
+  robot:
+    container_name: robot
+    build:
+      context: ./
+    environment:
+      # environments: lab, dev, localdocker, qa
+      ROBOT_OPTIONS: "-v ENVIRONMENT:lab"
+    volumes:
+      - ./Suites:/opt/robotframework/tests:Z
+      - ./RobotResults:/opt/robotframework/reports:Z
+    tty: true
