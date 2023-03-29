@@ -7,7 +7,7 @@ Robot Framework project for RPA-purpose. Main goal is try to use Robot Framework
 Discussion about this project is based on [Microsoft Teams (Private)](https://teams.microsoft.com/l/channel/19%3ad21dd15fdcff41a7b550a93d44110f67%40thread.skype/Elisa%2520Internal%2520case?groupId=b7597dea-5deb-4677-a5f4-e4af92f3b388&tenantId=bc70102e-bcef-408c-8acb-2ab01f1517ab).
 
 
-### Structure of tasks
+### Structure of files
 ```
 Workhour-project-RPA 
 |----Suites
